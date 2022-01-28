@@ -132,3 +132,48 @@ body {
   line-height: 18px;
   color: #5d6970;
 }
+
+/* Alterações Price -  Vagner */
+.price-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.price-content.price-content-title{
+  font-size: 36px;
+  line-height: 48px;
+  color:#091133;
+  width: 600px;
+  height: 48px;
+}
+
+.price-content.price-content-text{
+ color:#6F7CB2;
+ font-size:16px;
+ font-family: Roboto;
+ line-height: 26px;
+ letter-spacing: 1px;
+ width: 600px;
+ height: 78px;
+}
+
+.price-content.price-content-title2{
+  font-size: 16px;
+  line-height: 26px;
+  font-family: Roboto;
+  color: #37447E;
+  width: 350px;
+  height: 26px;
+
+}
+
+
+.price-content.price-content-text2{
+  font-size: 14px;
+  line-height: 24px;
+  color: #5D6970;
+  width: 350px;
+  height: 24px;
+}
