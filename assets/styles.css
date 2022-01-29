@@ -187,6 +187,11 @@ img{
   border: none;
   border-radius: 2px;
   cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn-about:hover{
+  filter:brightness(80%)
 }
 
 .fade-in{
