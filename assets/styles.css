@@ -160,8 +160,10 @@ body {
 
 .rodape {
   background-color: #E7ECFF;
+  background-image: none;
   height: 216px;
   margin: auto;
+  padding: 50px;
 
 
 }
@@ -169,13 +171,15 @@ body {
 .mark-logo-button {
   display: flex;
   justify-content: space-between;
-  padding-top: 5%;
+
   max-width: 1110px;
   width: 100%;
   margin: 0 auto;
 
 
 }
+
+
 
 .barra_do_rodape {
   height: 1px;
@@ -185,5 +189,36 @@ body {
   border-radius: 0px;
   align-items: center;
   color: #CDD1D4;
+
+}
+
+.divisor {
+  max-width: 1110px;
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  padding: 40px;
+}
+
+.navbar-links-bottom {
+  max-width: 1110px;
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  padding: 20px;
+
+}
+
+.social-mideas {
+  gap: 35px;
+  display: flex;
+  max-width: 1110px;
+  margin: 0 auto;
+  width: 100%;
+  display: flexbox;
+  justify-content: flex-end;
+
 
 }
