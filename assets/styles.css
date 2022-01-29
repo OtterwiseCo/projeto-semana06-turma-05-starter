@@ -154,9 +154,8 @@ img{
   display: flex;
   align-items: center;
   gap: 9.6rem;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 122px 0;
-
 }
 
 .about img{
@@ -171,6 +170,7 @@ img{
 }
 
 .text-about p{
+  max-width: 90ch;
   font-size: 1rem;
   color: #6F7CB2;
   margin-top: 1rem;
@@ -206,6 +206,22 @@ img{
   to {
     opacity: 1;
     transition: all 0.5s;
+  }
+}
+
+@media screen and (max-width: 1170px){
+  .about{
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 4rem;
+    padding: 40px 5rem;
+  }
+
+  .about img{
+    min-width: 150px;
+    min-height:100px;
   }
 }
 /*ARTHUR*/

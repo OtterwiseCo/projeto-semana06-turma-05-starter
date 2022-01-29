@@ -13,7 +13,7 @@ const handleNavbar = () => {
 
 handleNavbar()
 
-//add event de fade in and fade out for the image
+//add event fade in
 
 const fadeIn = document.querySelectorAll('.fade-in');
 
