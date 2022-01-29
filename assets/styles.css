@@ -164,6 +164,10 @@ body {
   height: 216px;
   margin: auto;
   padding-top: 61px;
+  position: static;
+  width: 100%;
+
+
 
 
 
@@ -171,13 +175,13 @@ body {
 
 .mark-logo-button {
   display: flex;
-  justify-content: space-between;
-
-  max-width: 1110px;
+  justify-content: center;
+  gap: 400px;
+  max-width: 1300px;
   width: 100%;
   margin: 0 auto;
   padding: 10px;
-
+  padding-left: 120px;
 }
 
 
