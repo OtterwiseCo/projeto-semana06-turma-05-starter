@@ -1,10 +1,21 @@
-html,
-body {
+*{
   margin: 0;
   padding: 0;
-  border: none;
   box-sizing: border-box;
+}
+
+html,
+body {
+  /* margin: 0;
+  padding: 0; */
+  border: none;
+  /* box-sizing: border-box; */
   font-family: 'Roboto', sans-serif;
+  scroll-behavior: smooth;
+}
+
+img{
+  max-width: 100%;
 }
 
 .header {
@@ -16,13 +27,18 @@ body {
   flex-direction: column;
   justify-content: center;
 }
-
 .navbar {
   position: fixed;
   top: 0;
   width: 100%;
   padding: 12px 0;
 }
+
+.navbar-scrolled{
+  background-color: #ffffff;
+  transition: all 0.5s;
+}
+
 
 .navbar .container {
   display: flex;
@@ -132,3 +148,85 @@ body {
   line-height: 18px;
   color: #5d6970;
 }
+
+/*ARTHUR*/
+.about{
+  display: flex;
+  align-items: center;
+  gap: 9.6rem;
+  justify-content: space-around;
+  padding: 122px 0;
+}
+
+.about img{
+  width: 400px;
+  height:300px;
+}
+
+.text-about h3{
+  font-size: 2.25rem;
+  color: #091133;
+  margin-bottom: 1rem;
+}
+
+.text-about p{
+  max-width: 90ch;
+  font-size: 1rem;
+  color: #6F7CB2;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+
+}
+
+.btn-about{
+  margin-top:2.75rem;
+  padding: 0.8rem 2rem;
+  background-color: #111B47;
+  color: #ffffff;
+  font-size: 14px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn-about:hover{
+  filter:brightness(80%)
+}
+
+.fade-in{
+  opacity: 0;
+}
+
+.fade-in-active{
+  opacity: 1;
+  animation: fadeIn 0.5s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transition: all 0.5s;
+  }
+  to {
+    opacity: 1;
+    transition: all 0.5s;
+  }
+}
+
+@media screen and (max-width: 1170px){
+  .about{
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 4rem;
+    padding: 40px 5rem;
+  }
+
+  .about img{
+    min-width: 150px;
+    min-height:100px;
+  }
+}
+/*ARTHUR*/
