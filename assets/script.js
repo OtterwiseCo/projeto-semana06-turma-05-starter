@@ -12,3 +12,23 @@ const handleNavbar = () => {
 }
 
 handleNavbar()
+
+//add event de fade in and fade out for the image
+
+const fadeIn = document.querySelectorAll('.fade-in');
+
+const eventScrollView = () => {
+    window.addEventListener('scroll', () => {
+        fadeIn.forEach(fade => {
+            // fade.classList.add('fade-in-active');
+
+            if(window.scrollY > fade.offsetTop - window.innerHeight * 0.75) {
+                fade.classList.add('fade-in-active');
+            } else {
+                fade.classList.remove('fade-in-active');
+            }
+        })
+    })
+}
+
+eventScrollView()
