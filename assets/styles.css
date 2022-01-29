@@ -145,14 +145,45 @@ body {
   color: #222f65;
 }
 
-.footer-text-design {
+.text-design {
   color: #37447e;
   font-size: 16px;
   line-height: 26px;
 }
 
-.footer-text-secondary {
+.text-secondary {
   font-size: 14px;
   line-height: 24px;
   color: #5d6970;
+}
+
+
+.rodape {
+  background-color: #E7ECFF;
+  height: 216px;
+  margin: auto;
+
+
+}
+
+.mark-logo-button {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5%;
+  max-width: 1110px;
+  width: 100%;
+  margin: 0 auto;
+
+
+}
+
+.barra_do_rodape {
+  height: 1px;
+  width: 1110px;
+  left: 165px;
+  top: 4551px;
+  border-radius: 0px;
+  align-items: center;
+  color: #CDD1D4;
+
 }
