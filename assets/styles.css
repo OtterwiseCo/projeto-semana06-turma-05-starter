@@ -4,11 +4,11 @@ body {
   padding: 0;
   border: none;
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .header {
-  background-image: url('./images/header-bg.png');
+  background-image: url("./images/header-bg.png");
   background-position: right top;
   background-repeat: no-repeat;
   height: 100vh;
@@ -133,7 +133,38 @@ body {
   color: #5d6970;
 }
 
-.section-bg {
+
+.about {
+  display: flex;
+  align-items: center;
+  gap: 10em;
+  justify-content: space-between;
+  padding: 100px 0;
+}
+
+.img-about {
+  width: 400px;
+  height: 300px;
+}
+
+.about-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #6f7cb2;
+}
+
+.about-title {
+  font-size: 36px;
+  line-height: 48px;
+  color: #091133;
+}
+
+.scrolled {
+  background-color: white;
+  transition: ease 0.5s;
+
+}.section-bg {
   background: url(./images/Rectangle.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -147,7 +178,6 @@ body {
 
 .pricing-content {
   flex-direction: column;
-
   align-items: center;
   text-align: center;
   justify-content: center;
