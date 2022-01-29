@@ -163,7 +163,8 @@ body {
   background-image: none;
   height: 216px;
   margin: auto;
-  padding: 50px;
+  padding-top: 61px;
+
 
 
 }
@@ -175,7 +176,7 @@ body {
   max-width: 1110px;
   width: 100%;
   margin: 0 auto;
-
+  padding: 10px;
 
 }
 
@@ -208,6 +209,7 @@ body {
   display: flex;
   justify-content: flex-start;
   padding: 20px;
+
 
 }
 
