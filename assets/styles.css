@@ -180,8 +180,8 @@ body {
   max-width: 1300px;
   width: 100%;
   margin: 0 auto;
-  padding: 10px;
-  padding-left: 120px;
+  padding: 20px;
+  
 }
 
 
@@ -204,6 +204,7 @@ body {
   display: flex;
   justify-content: left;
   padding: 40px;
+  color: #CDD1D4;
 }
 
 .navbar-links-bottom {
@@ -213,8 +214,7 @@ body {
   display: flex;
   justify-content: flex-start;
   padding: 20px;
-
-
+  color: #929ECC;
 }
 
 .social-medias {
@@ -225,6 +225,26 @@ body {
   width: 100%;
   display: flexbox;
   justify-content: flex-end;
+}
 
+.collor_footer_mark {
+  color: #939EA4;
+}
+
+.landie_Footer {
+  font: 900px;
+  font-family: Roboto;
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 38px;
+
+}
+
+.button_footer {
+  width: 109px;
+
+  min-width: 0px;
+  font-size: 12px;
+  align-items: center;
 
 }
