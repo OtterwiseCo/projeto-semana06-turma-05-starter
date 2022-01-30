@@ -139,16 +139,33 @@ body {
   background-size: cover;
 }
 
+.footer-description {
+  font-size: 16px;
+  line-height: 26px;
+  color: #6f7cb2;
+  max-width: 600px;
+  text-align: center;
+}
+
+.center {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+
 .text-price {
   font-size: 50px;
   font-weight: 500;
   color: #222f65;
+  margin: 35px 0px 0px 0px;
 }
 
 .text-design {
   color: #37447e;
   font-size: 16px;
   line-height: 26px;
+  margin-bottom: 60px;
 }
 
 .text-secondary {
