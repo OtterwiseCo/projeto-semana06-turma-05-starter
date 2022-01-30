@@ -137,6 +137,7 @@ body {
 .price {
   background-image: url("./images/Rectangle.png");
   background-size: cover;
+  padding: 172px;
 }
 
 .footer-description {
