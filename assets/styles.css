@@ -225,10 +225,9 @@ body {
   display: flex;
   justify-content: flex-start;
   padding: 20px;
-<<<<<<< HEAD
+
   color: #929ECC;
-=======
->>>>>>> ceaf10d45014f1b97fc19d7efde6168267533e6a
+
 }
 
 .social-medias {
@@ -240,7 +239,6 @@ body {
   display: flexbox;
   justify-content: flex-end;
 }
-<<<<<<< HEAD
 
 .collor_footer_mark {
   color: #939EA4;
@@ -263,5 +261,3 @@ body {
   align-items: center;
 
 }
-=======
->>>>>>> ceaf10d45014f1b97fc19d7efde6168267533e6a
