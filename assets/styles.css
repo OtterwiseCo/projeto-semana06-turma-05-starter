@@ -112,6 +112,7 @@ body {
   font-size: 36px;
   line-height: 48px;
   color: #091133;
+  margin-bottom: 0;
 }
 
 .sad-woman-content-description {
@@ -133,22 +134,39 @@ body {
   color: #5d6970;
 }
 
-/* footer */
 .price {
   background-image: url("./images/Rectangle.png");
   background-size: cover;
+  padding: 172px;
+}
+
+.price-description {
+  font-size: 16px;
+  line-height: 26px;
+  color: #6f7cb2;
+  max-width: 600px;
+  text-align: center;
+}
+
+.center {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
 }
 
 .text-price {
   font-size: 50px;
   font-weight: 500;
   color: #222f65;
+  margin: 35px 0px 0px 0px;
 }
 
 .text-design {
   color: #37447e;
   font-size: 16px;
   line-height: 26px;
+  margin-bottom: 60px;
 }
 
 .text-secondary {
@@ -157,20 +175,16 @@ body {
   color: #5d6970;
 }
 
+/* footer */
 
 .rodape {
-  background-color: #E7ECFF;
+  background-color: #e7ecff;
   background-image: none;
   height: 216px;
   margin: auto;
   padding-top: 61px;
   position: static;
   width: 100%;
-
-
-
-
-
 }
 
 .mark-logo-button {
@@ -184,8 +198,6 @@ body {
   
 }
 
-
-
 .barra_do_rodape {
   height: 1px;
   width: 1110px;
@@ -193,8 +205,7 @@ body {
   top: 4551px;
   border-radius: 0px;
   align-items: center;
-  color: #CDD1D4;
-
+  color: #cdd1d4;
 }
 
 .divisor {
@@ -214,7 +225,10 @@ body {
   display: flex;
   justify-content: flex-start;
   padding: 20px;
+<<<<<<< HEAD
   color: #929ECC;
+=======
+>>>>>>> ceaf10d45014f1b97fc19d7efde6168267533e6a
 }
 
 .social-medias {
@@ -226,6 +240,7 @@ body {
   display: flexbox;
   justify-content: flex-end;
 }
+<<<<<<< HEAD
 
 .collor_footer_mark {
   color: #939EA4;
@@ -248,3 +263,5 @@ body {
   align-items: center;
 
 }
+=======
+>>>>>>> ceaf10d45014f1b97fc19d7efde6168267533e6a
