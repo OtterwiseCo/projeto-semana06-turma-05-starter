@@ -4,3 +4,5 @@
 
 projeto2
 parte do Lucas Vilella: Light, fast & powerfull
+
+- Christian Gall: branch featureFooter -- rodapé da Página
