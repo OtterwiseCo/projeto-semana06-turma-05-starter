@@ -131,4 +131,21 @@ body {
   font-size: 12px;
   line-height: 18px;
   color: #5d6970;
+
 }
+.precocont {
+  display: flex;
+  align-items: center;
+  justify-content: center ;
+  text-align: center  ;
+  height: 100vh;
+  background-image: url('./images/Rectangle.png');
+}
+
+.recoretang h2{ 
+ font-size: Roboto;
+ font-style: normal;
+ font-weight: 500;
+ font-size: 36px;
+
+} 
