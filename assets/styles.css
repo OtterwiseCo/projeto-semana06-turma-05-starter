@@ -182,7 +182,6 @@ body {
   background-image: none;
   height: 216px;
   margin: auto;
-  padding-top: 61px;
   position: static;
   width: 100%;
 }
@@ -194,8 +193,10 @@ body {
   max-width: 1300px;
   width: 100%;
   margin: 0 auto;
-  padding: 10px;
-  padding-left: 120px;
+  max-width: 1110px;
+
+
+
 }
 
 .barra_do_rodape {
@@ -214,7 +215,9 @@ body {
   width: 100%;
   display: flex;
   justify-content: left;
-  padding: 40px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  color: #CDD1D4;
 }
 
 .navbar-links-bottom {
@@ -222,8 +225,11 @@ body {
   margin: 0 auto;
   width: 100%;
   display: flex;
-  justify-content: flex-start;
-  padding: 20px;
+  justify-content: center;
+
+
+  color: #929ECC;
+
 }
 
 .social-medias {
@@ -232,17 +238,18 @@ body {
   max-width: 1110px;
   margin: 0 auto;
   width: 100%;
-  display: flexbox;
+  display: flex;
   justify-content: flex-end;
 }
 
-.parte-do-lucas {
+.parte-do-lucas1 {
   display: flex;
+  gap: 200px;
   align-items: center;
   padding: 109px 0;
 }
 
-.parte-do-lucas-content-title {
+.parte-do-lucas1-content-title {
   color: #091133;
   font-size: 36px;
   line-height: 48px;
@@ -253,7 +260,7 @@ body {
 
 }
 
-.parte-do-lucas-content-description {
+.parte-do-lucas1-content-description {
   color: #6F7CB2;
   font-size: 16px;
   line-height: 26px;
@@ -264,3 +271,89 @@ body {
   display: flex;
   
 }
+
+.parte-do-lucas2 {
+  display: flex;
+  gap: 150px;
+  align-items: center;
+  padding: 109px 0;
+}
+
+.parte-do-lucas2-content-title {
+  color: #091133;
+  font-size: 36px;
+  line-height: 48px;
+  height: 48px;
+  width: 445px;
+  left: 0px;
+  top: 0px;
+
+}
+
+.parte-do-lucas2-content-description {
+  color: #6F7CB2;
+  font-size: 16px;
+  line-height: 26px;
+  height: 166px;
+  width: 445px;
+  left: 0px;
+  top: 64px;
+  display: flex;
+  
+}
+
+.parte-do-lucas3 {
+  display: flex;
+  gap: 250px;
+  align-items: center;
+  padding: 109px 0;
+}
+
+.parte-do-lucas3-content-title {
+  color: #091133;
+  font-size: 36px;
+  line-height: 48px;
+  height: 48px;
+  width: 445px;
+  left: 0px;
+  top: 0px;
+
+}
+
+.parte-do-lucas3-content-description {
+  color: #6F7CB2;
+  font-size: 16px;
+  line-height: 26px;
+  height: 166px;
+  width: 445px;
+  left: 0px;
+  top: 64px;
+  display: flex;
+  
+}
+.collor_footer_mark {
+  color: #939EA4;
+  white-space: nowrap;
+}
+
+.landie_Footer {
+  font: 900px;
+  font-family: Roboto;
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 38px;
+
+}
+
+.button_footer {
+  width: 109px;
+  max-height: 26px;
+  border: 0px;
+  padding: 0px;
+
+  min-width: 0px;
+  font-size: 12px;
+  align-items: center;
+
+}
+
