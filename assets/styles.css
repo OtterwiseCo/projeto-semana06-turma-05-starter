@@ -242,6 +242,7 @@ body {
   justify-content: flex-end;
 }
 
+
 .parte-do-lucas1 {
   display: flex;
   gap: 200px;
@@ -331,6 +332,7 @@ body {
   display: flex;
   
 }
+
 .collor_footer_mark {
   color: #939EA4;
   white-space: nowrap;
