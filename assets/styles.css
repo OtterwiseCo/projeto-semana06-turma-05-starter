@@ -182,7 +182,6 @@ body {
   background-image: none;
   height: 216px;
   margin: auto;
-  padding-top: 61px;
   position: static;
   width: 100%;
 }
@@ -194,8 +193,10 @@ body {
   max-width: 1300px;
   width: 100%;
   margin: 0 auto;
-  padding: 10px;
-  padding-left: 120px;
+  max-width: 1110px;
+
+
+
 }
 
 .barra_do_rodape {
@@ -214,7 +215,9 @@ body {
   width: 100%;
   display: flex;
   justify-content: left;
-  padding: 40px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  color: #CDD1D4;
 }
 
 .navbar-links-bottom {
@@ -222,8 +225,11 @@ body {
   margin: 0 auto;
   width: 100%;
   display: flex;
-  justify-content: flex-start;
-  padding: 20px;
+  justify-content: center;
+
+
+  color: #929ECC;
+
 }
 
 .social-medias {
@@ -232,9 +238,10 @@ body {
   max-width: 1110px;
   margin: 0 auto;
   width: 100%;
-  display: flexbox;
+  display: flex;
   justify-content: flex-end;
 }
+
 
 .parte-do-lucas {
   display: flex;
@@ -264,3 +271,30 @@ body {
   display: flex;
   
 }
+=======
+.collor_footer_mark {
+  color: #939EA4;
+  white-space: nowrap;
+}
+
+.landie_Footer {
+  font: 900px;
+  font-family: Roboto;
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 38px;
+
+}
+
+.button_footer {
+  width: 109px;
+  max-height: 26px;
+  border: 0px;
+  padding: 0px;
+
+  min-width: 0px;
+  font-size: 12px;
+  align-items: center;
+
+}
+
