@@ -194,9 +194,6 @@ body {
   width: 100%;
   margin: 0 auto;
   max-width: 1110px;
-
-
-
 }
 
 .barra_do_rodape {
@@ -217,7 +214,7 @@ body {
   justify-content: left;
   padding-top: 40px;
   padding-bottom: 20px;
-  color: #CDD1D4;
+  color: #cdd1d4;
 }
 
 .navbar-links-bottom {
@@ -227,9 +224,7 @@ body {
   display: flex;
   justify-content: center;
 
-
-  color: #929ECC;
-
+  color: #929ecc;
 }
 
 .social-medias {
@@ -258,11 +253,10 @@ body {
   width: 445px;
   left: 0px;
   top: 0px;
-
 }
 
 .parte-do-lucas1-content-description {
-  color: #6F7CB2;
+  color: #6f7cb2;
   font-size: 16px;
   line-height: 26px;
   height: 166px;
@@ -270,7 +264,6 @@ body {
   left: 0px;
   top: 64px;
   display: flex;
-  
 }
 
 .parte-do-lucas2 {
@@ -334,7 +327,7 @@ body {
 }
 
 .collor_footer_mark {
-  color: #939EA4;
+  color: #939ea4;
   white-space: nowrap;
 }
 
@@ -344,7 +337,6 @@ body {
   font-weight: 900;
   font-size: 26px;
   line-height: 38px;
-
 }
 
 .button_footer {
@@ -356,6 +348,4 @@ body {
   min-width: 0px;
   font-size: 12px;
   align-items: center;
-
 }
-
