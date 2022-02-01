@@ -237,13 +237,15 @@ body {
   justify-content: flex-end;
 }
 
-.parte-do-lucas {
+
+.parte-do-lucas1 {
   display: flex;
+  gap: 200px;
   align-items: center;
   padding: 109px 0;
 }
 
-.parte-do-lucas-content-title {
+.parte-do-lucas1-content-title {
   color: #091133;
   font-size: 36px;
   line-height: 48px;
@@ -253,7 +255,7 @@ body {
   top: 0px;
 }
 
-.parte-do-lucas-content-description {
+.parte-do-lucas1-content-description {
   color: #6f7cb2;
   font-size: 16px;
   line-height: 26px;
@@ -262,6 +264,66 @@ body {
   left: 0px;
   top: 64px;
   display: flex;
+}
+
+.parte-do-lucas2 {
+  display: flex;
+  gap: 150px;
+  align-items: center;
+  padding: 109px 0;
+}
+
+.parte-do-lucas2-content-title {
+  color: #091133;
+  font-size: 36px;
+  line-height: 48px;
+  height: 48px;
+  width: 445px;
+  left: 0px;
+  top: 0px;
+
+}
+
+.parte-do-lucas2-content-description {
+  color: #6F7CB2;
+  font-size: 16px;
+  line-height: 26px;
+  height: 166px;
+  width: 445px;
+  left: 0px;
+  top: 64px;
+  display: flex;
+  
+}
+
+.parte-do-lucas3 {
+  display: flex;
+  gap: 250px;
+  align-items: center;
+  padding: 109px 0;
+}
+
+.parte-do-lucas3-content-title {
+  color: #091133;
+  font-size: 36px;
+  line-height: 48px;
+  height: 48px;
+  width: 445px;
+  left: 0px;
+  top: 0px;
+
+}
+
+.parte-do-lucas3-content-description {
+  color: #6F7CB2;
+  font-size: 16px;
+  line-height: 26px;
+  height: 166px;
+  width: 445px;
+  left: 0px;
+  top: 64px;
+  display: flex;
+  
 }
 
 .collor_footer_mark {
