@@ -4,11 +4,11 @@ body {
   padding: 0;
   border: none;
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .header {
-  background-image: url('./images/header-bg.png');
+  background-image: url("./images/header-bg.png");
   background-position: right top;
   background-repeat: no-repeat;
   height: 100vh;
@@ -112,6 +112,7 @@ body {
   font-size: 36px;
   line-height: 48px;
   color: #091133;
+  margin-bottom: 0;
 }
 
 .sad-woman-content-description {
@@ -131,4 +132,220 @@ body {
   font-size: 12px;
   line-height: 18px;
   color: #5d6970;
+}
+
+.price {
+  background-image: url("./images/Rectangle.png");
+  background-size: cover;
+  padding: 172px;
+}
+
+.price-description {
+  font-size: 16px;
+  line-height: 26px;
+  color: #6f7cb2;
+  max-width: 600px;
+  text-align: center;
+}
+
+.center {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text-price {
+  font-size: 50px;
+  font-weight: 500;
+  color: #222f65;
+  margin: 35px 0px 0px 0px;
+}
+
+.text-design {
+  color: #37447e;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 60px;
+}
+
+.text-secondary {
+  font-size: 14px;
+  line-height: 24px;
+  color: #5d6970;
+}
+
+/* footer */
+
+.rodape {
+  background-color: #e7ecff;
+  background-image: none;
+  height: 216px;
+  margin: auto;
+  position: static;
+  width: 100%;
+}
+
+.mark-logo-button {
+  display: flex;
+  justify-content: center;
+  gap: 400px;
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1110px;
+}
+
+.barra_do_rodape {
+  height: 1px;
+  width: 1110px;
+  left: 165px;
+  top: 4551px;
+  border-radius: 0px;
+  align-items: center;
+  color: #cdd1d4;
+}
+
+.divisor {
+  max-width: 1110px;
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  color: #cdd1d4;
+}
+
+.navbar-links-bottom {
+  max-width: 1110px;
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  color: #929ecc;
+}
+
+.social-medias {
+  gap: 35px;
+  display: flex;
+  max-width: 1110px;
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+.parte-do-lucas1 {
+  display: flex;
+  gap: 200px;
+  align-items: center;
+  padding: 109px 0;
+}
+
+.parte-do-lucas1-content-title {
+  color: #091133;
+  font-size: 36px;
+  line-height: 48px;
+  height: 48px;
+  width: 445px;
+  left: 0px;
+  top: 0px;
+}
+
+.parte-do-lucas1-content-description {
+  color: #6f7cb2;
+  font-size: 16px;
+  line-height: 26px;
+  height: 166px;
+  width: 445px;
+  left: 0px;
+  top: 64px;
+  display: flex;
+}
+
+.parte-do-lucas2 {
+  display: flex;
+  gap: 150px;
+  align-items: center;
+  padding: 109px 0;
+}
+
+.parte-do-lucas2-content-title {
+  color: #091133;
+  font-size: 36px;
+  line-height: 48px;
+  height: 48px;
+  width: 445px;
+  left: 0px;
+  top: 0px;
+
+}
+
+.parte-do-lucas2-content-description {
+  color: #6F7CB2;
+  font-size: 16px;
+  line-height: 26px;
+  height: 166px;
+  width: 445px;
+  left: 0px;
+  top: 64px;
+  display: flex;
+  
+}
+
+.parte-do-lucas3 {
+  display: flex;
+  gap: 250px;
+  align-items: center;
+  padding: 109px 0;
+}
+
+.parte-do-lucas3-content-title {
+  color: #091133;
+  font-size: 36px;
+  line-height: 48px;
+  height: 48px;
+  width: 445px;
+  left: 0px;
+  top: 0px;
+
+}
+
+.parte-do-lucas3-content-description {
+  color: #6F7CB2;
+  font-size: 16px;
+  line-height: 26px;
+  height: 166px;
+  width: 445px;
+  left: 0px;
+  top: 64px;
+  display: flex;
+  
+}
+
+.collor_footer_mark {
+  color: #939ea4;
+  white-space: nowrap;
+}
+
+.landie_Footer {
+  font: 900px;
+  font-family: Roboto;
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 38px;
+}
+
+.button_footer {
+  width: 109px;
+  max-height: 26px;
+  border: 0px;
+  padding: 0px;
+
+  min-width: 0px;
+  font-size: 12px;
+  align-items: center;
 }
